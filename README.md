@@ -1,16 +1,32 @@
-# React + Vite
+# Mini Healthcare Support Web App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Tech Stack
+- React (Vite)
+- JavaScript
+- HTML & CSS
+- Hosted on Netlify
 
-Currently, two official plugins are available:
+## AI / Automation Idea
+The application simulates an AI-powered assistant by automatically analyzing the user’s message and categorizing it into:
+- Medical Support
+- Volunteer Request
+- Appointment Query
+- General Support
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Based on the category, the system generates an instant automated response. This demonstrates how AI-driven automation can reduce manual effort and improve response time.
 
-## React Compiler
+## NGO Use Case
+Healthcare NGOs often receive a large number of patient queries and volunteer requests.  
+This app helps NGOs by:
+- Automatically organizing incoming requests
+- Prioritizing medical-related concerns
+- Reducing manual sorting of messages
+- Improving efficiency and response speed
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+This project focuses on clarity of concept and real-world applicability rather than full-scale AI implementation.
 
-## Expanding the ESLint configuration
+## Live Demo
+https://amazing-frangipane-3e9b4f.netlify.app
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## GitHub Repository
+https://github.com/Glynis1314/healthcare-support-app
